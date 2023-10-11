@@ -20,10 +20,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/users" element={<UserList />} />
-          <Route path="/users/:userId" element={<User />} />
+          <Route path="/user/:userId" element={<User />} />
           <Route path="/newUser" element={<NewUser />} />
           <Route path="/products" element={<ProductList />} />
-          <Route path="/products/:productId" element={<Product />} />
+          <Route path="/product/:productId" element={<Product />} />
           <Route path="/newProduct" element={<NewProduct />} />
         </Routes>
       </div>
